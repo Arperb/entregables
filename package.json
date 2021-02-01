@@ -1,0 +1,25 @@
+{
+  "name": "entregables",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.26.14"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start --server 'www' --files 'www'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arperb/entregables.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arperb/entregables/issues"
+  },
+  "homepage": "https://github.com/Arperb/entregables#readme"
+}
