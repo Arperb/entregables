@@ -12,6 +12,17 @@ nav {
 nav ul {
     display:inline-block
 }
+
+nav.section-activa a, .seccion-activa a:visited {
+    color: rgb(224, 164, 51);
+}
+
+a:-webkit-any-link {
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 header {
     width: 80%;
     text-align: center;
@@ -24,13 +35,94 @@ header h1, h2 {
     font-weight: 100;
 }
 
+aside {
+    background-color: rgb(170, 167, 170);
+    width: 20%;
+    float: right;
+   
+}
+aside img {
+    width: 90%;
+    margin: 5px 5%;
+    border-radius: 50%;
+}
+
+.facebook {
+    width: 7%;
+   
+}
+
+.twitter {
+    width: 10%;
+   
+}
+
+
 main {
     width: 80%;
-    display: inline-block;
     float: left;
     
 }
 
+.favoritos {
+    margin: auto 5%;
+    width: 40%;
+    padding-top: 30px;
+    float: right;
+  
+}
+
+
+.horario {
+    margin: auto 5%;
+    width: 40%;
+    float: left;
+}
+
+#comida > ul.thunderbolt > li:nth-child(1):hover {
+    margin-top: 10px;  
+    list-style: "🥐";
+    list-style-position: outside;
+  }
+#comida > ul.thunderbolt > li:nth-child(2):hover {
+    margin-top: 10px;  
+    list-style: "🥪";
+    list-style-position: outside;
+  }
+
+#pelicula > ul.thunderbolt > li:nth-child(1):hover {
+    margin-top: 10px;  
+    list-style: "🎞";
+    list-style-position: outside;
+  }
+#pelicula > ul.thunderbolt > li:nth-child(2):hover {
+    margin-top: 10px;  
+    list-style: "📽";
+    list-style-position: outside;
+  }
+
+#canciones > ul.thunderbolt > li:nth-child(1):hover {
+    margin-top: 10px;  
+    list-style: "🎻";
+    list-style-position: outside;
+  }
+#canciones > ul.thunderbolt > li:nth-child(2):hover {
+    margin-top: 10px;  
+    list-style: "🎼";
+    list-style-position: outside;
+  }
+
+#animales > ul.thunderbolt > li:nth-child(1):hover {
+    margin-top: 10px;  
+    list-style: "🐶";
+    list-style-position: outside;
+  }
+#animales > ul.thunderbolt > li:nth-child(2):hover {
+    margin-top: 10px;  
+    list-style: "🐼";
+    list-style-position: outside;
+  }
+  
 tr:nth-child(even) {
     background-color: turquoise;
 }
@@ -46,53 +138,15 @@ th, tr td:first-child {
     font-weight: bold;
 }
 
-.favoritos {
-    margin: auto 5%;
-    width: 40%;
-    text-align: center;
-    padding-top: 30px;
-    float: right;
-    
-
-   
-}
-.favoritos:hover {
-    background-color: whitesmoke;
-}
-
-.horario {
-    margin: auto 5%;
-    width: 40%;
-    float: left;
-}
-
-.horario:hover {
-    background-color: whitesmoke;
-}
 
 
-    
+  
 .video {
     clear: both;
     margin-left: 35%;
 }
 
-.video:hover {
-    background-color: whitesmoke;
-}
 
-aside {
-    background-color: violet;
-    width: 20%;
-    display: inline-block;
-    float: right;
-   
-}
-aside img {
-    width: 90%;
-    margin: 5px 5%;
-    border-radius: 50%;
-}
 footer {
     height: 50px;
     background-color: black;
@@ -100,36 +154,19 @@ footer {
     
 }
 
-nav.section-activa a, .seccion-activa a:visited {
-    color: red;
-}
-
-
-footer:links{
-    color:white
-}
 
 footer a {
     color:white
 }
 
 footer a:visited {
-    color:rgb(53, 163, 25)
+    color:rgb(163, 142, 25)
 }
-
-nav {
-    padding: 10px;
-    color: rgb(15, 9, 9);
-    text-decoration: none;
-    text-transform: uppercase;
-    transition: color .3s ease;
-}
-
-nav:hover {
-    color: rgb(151, 151, 151);
-}
-
 
 .required {
     border: 1px solid red;
 }
+
+
+   
+
